@@ -1,2 +1,0 @@
-# login-register
-amazed ui
