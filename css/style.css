@@ -1,0 +1,385 @@
+@charset "utf-8";
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font: 14px/1.5 "Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+}
+/* CSS Document */
+
+
+body.bodybg {
+    background: #f5f6f7;
+}
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga","kern";
+}
+
+.ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+.ng-hide {
+    display: none !important;
+}
+.neterrorwrap {
+    margin: 0;
+}
+form {
+    margin: 0;
+}
+.neterrorwrap .neterror {
+    background: #fff8cc;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    text-align: center;
+    position: fixed;
+    top: 53px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.position_hidden {
+    position: fixed;
+    left: -99999px;
+    width: 0 !important;
+    height: 0 !important;
+    background: red;
+    position: static� !important;
+    background: transparent� !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+input {
+    outline: none;
+    font-family: Verdana,Tahoma,Arial;
+    background: none;
+}
+.icon-neterror {
+    background-position: -140px -40px;
+    width: 24px;
+    height: 24px;
+    margin: 0 15px 0 0;
+}
+[class^="icon-"], [class*="icon-"] {
+    background: url(../images/icon-main.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.neterrorwrap .neterror {
+    line-height: 48px;
+    font-size: 16px;
+    text-align: center;
+}
+.neterrorwrap .neterror a.netclose {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    font-size: 0;
+    line-height: 0;
+}
+a {
+    text-decoration: none;
+    color: #29e;
+    outline: none;
+    -webkit-transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    -moz-transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    -ms-transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+.notop .wraper {
+    padding-top: 30px;
+}
+.wraper {
+    margin: 0 auto;
+    padding: 95px 15px 20px;
+    min-width: 290px;
+    max-width: 440px;
+    *min-width: 440px;
+}
+.icon-netclose {
+    background-position: -140px -20px;
+    width: 12px;
+    height: 12px;
+}
+
+[class^="icon-"], [class*="icon-"] {
+    background: url(../images/icon-main.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.logo {
+    margin: 0 0 20px;
+}
+.logo {
+    margin: 0 0 30px;
+    text-align: center;
+    display: block;
+}
+.inputwrap {
+    background: #fff;
+    margin: 0 0 12px;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    *z-index: 20;
+}
+.errortip.ng-hide {
+    display: none !important;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+.ng-hide {
+    display: none !important;
+}
+.errortip {
+    margin: -8px 0 6px;
+    color: #f44;
+    font-size: 12px;
+}
+.ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+.ng-hide {
+    display: none !important;
+}
+.smswrap {
+    margin: 0 0 12px;
+    position: relative;
+}
+.errortip.ng-hide {
+    display: none !important;
+}
+.tiptext {
+    margin: 0 0 8px;
+    position: relative;
+    font-size: 12px;
+    color: #999;
+}
+.submitwrap {
+    margin: 0 0 12px;
+    padding: 10px 0 0;
+    position: relative;
+}
+.tiplink {
+    margin: 30px 0 10px;
+    text-align: center;
+}
+.lable-login {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+}
+.inputwrap input.padr1[type="text"] {
+    *width: 343px;
+}
+.inputwrap .inputclear {
+    position: absolute;
+    top: 0;
+    *top: 14px;
+    right: 0;
+    line-height: 48px;
+    width: 40px;
+    text-align: center;
+}
+.inputwrap {
+    background: #fff;
+    margin: 0 0 12px;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    *z-index: 20;
+}
+.errortip.ng-hide {
+    display: none !important;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+.ng-hide {
+    display: none !important;
+}
+.errortip {
+    margin: -8px 0 6px;
+    color: #f44;
+    font-size: 12px;
+}
+.smswrap .changeimg {
+    background: #fff;
+    width: 198px;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+    float: right;
+}
+.smswrap .authcode.imgcode {
+    margin: 0 210px 0 0;
+}
+.smswrap .authcode {
+    background: #fff;
+    margin: 0 160px 0 0;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+}
+.tiptext {
+    font-size: 12px;
+    color: #999;
+}
+.tiptext .tipright {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+a.btn-submit {
+    background: #29e;
+    color: #fff;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    border-radius: 2px;
+}
+.tiplink a {
+    color: #29e;
+}
+.icon-logo {
+    background-position: -380px 0;
+    width: 148px;
+    height: 47px;
+}
+[class^="icon-"], [class*="icon-"] {
+    background: url(../images/icon-main.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.icon-user {
+    background-position: 0 0;
+    width: 14px;
+    height: 14px;
+}
+.icon-clear {
+    display: none;
+}
+.icon-clear {
+    background-position: -120px 0;
+    width: 15px;
+    height: 15px;
+}
+.input-password.login-input .lable-login {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.input-password .lable-login {
+    display: none;
+}
+.lable-login {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+}
+input#password {
+    ime-mode: disabled;
+}
+.inputwrap input[type="text"], .inputwrap input[type="password"], .inputwrap input[type="number"] {
+    padding: 10px 15px 10px 45px;
+    width: 100%;
+    *width: 373px;
+    height: 100%;
+    *height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    border: 0 none;
+    box-sizing: border-box;
+}
+input {
+    outline: none;
+    font-family: Verdana,Tahoma,Arial;
+    background: none;
+}
+.smswrap .changeimg a {
+    float: right;
+    width: 88px;
+    height: 48px;
+    line-height: 48px;
+    border-left: 1px solid #d9d9d9;
+    text-align: center;
+}
+.smswrap .authcode.imgcode input {
+    *width: 198px;
+}
+.smswrap .authcode input {
+    border: none 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    *width: 248px;
+    height: 100%;
+    *height: 28px;
+    box-sizing: border-box;
+}
+.icon-check {
+    background-position: -90px 0;
+    width: 16px;
+    height: 16px;
+    margin: 0 8px 2px 0;
+}
+[class^="icon-"], [class*="icon-"] {
+    background: url(../images/icon-main.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.icon-arrow {
+    background-position: -180px -20px;
+    width: 14px;
+    height: 11px;
+    margin: 0 0 3px;
+}
+.icon-lock {
+    background-position: -20px 0;
+    width: 13px;
+    height: 16px;
+}
+.icon-change {
+    background-position: 0 -40px;
+    width: 16px;
+    height: 12px;
+    margin: 0 6px 0 0;
+}
+img {
+    border: none 0;
+}
+.icon-check {
+    background-position: -90px 0;
+    width: 16px;
+    height: 16px;
+    margin: 0 8px 2px 0;
+}
+[class^="icon-"], [class*="icon-"] {
+    background: url(../images/icon-main.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+
+
